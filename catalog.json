@@ -29,9 +29,12 @@
     {"id":"prod-62ff8458-023","name":"Pro Item 23","category":"books","price":379.59,"stock":162,"rating":3.6}
   ],
   "aggregations": {
-    "clothing": {
-      "count": 11,
-      "inventoryValue": 273418.12
-    }
+  "clothing": {
+    "count": 11,
+    "inventoryValue": 273418.12
+  },
+  "electronics": {
+    "count": 4,
+    "inventoryValue": 152028.02
   }
 }
