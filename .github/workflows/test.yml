@@ -1,0 +1,14 @@
+name: My First Action
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: 21f3000401@ds.study.iitm.ac.in
+        run: echo "Hello, world! GitHub Action is running."
